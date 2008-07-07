@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>class ${1:Modelname}(models.Model):
+	"""
+	${2:($1 description)}
+	"""
+
+	name       = models.CharField(max_length=255)
+	slug       = models.SlugField(prepopulate_from=('name',), unique=True)
+	body       = models.TextField(blank=True)
+	$0
+	created_at = models.DateTimeField(auto_now_add=True)
+	updated_at = models.DateTimeField(auto_now=True)
+
+	class Admin:
+		list_display = ('',)
+		search_fields = ('',)
+
+	# class Meta:
+	#    verbose_name_plural = 'people'
+
+	def __unicode__(self):
+		return self.name
+</string>
+	<key>name</key>
+	<string>Model Skeleton</string>
+	<key>scope</key>
+	<string>source.python.django</string>
+	<key>tabTrigger</key>
+	<string>model</string>
+	<key>uuid</key>
+	<string>311C17C5-A556-48D4-B91F-DD28BB0CF4E7</string>
+</dict>
+</plist>

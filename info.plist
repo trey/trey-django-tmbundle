@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Trey - Django</string>
+	<key>ordering</key>
+	<array>
+		<string>311C17C5-A556-48D4-B91F-DD28BB0CF4E7</string>
+		<string>AB3C8E3F-C90E-4EC9-A74D-E7D9519A550E</string>
+		<string>086A4DA4-779A-40E9-9C51-295D4F32C146</string>
+	</array>
+	<key>uuid</key>
+	<string>0AF68BCC-CA3F-47F3-85D8-0BD5DA28F230</string>
+</dict>
+</plist>
