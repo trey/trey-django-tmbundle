@@ -8,12 +8,12 @@
 	${2:($1 description)}
 	"""
 
-	name       = models.CharField(max_length=255)
-	slug       = models.SlugField(prepopulate_from=('name',), unique=True)
-	body       = models.TextField(blank=True)
+	name    = models.CharField(max_length=255)
+	slug    = models.SlugField(prepopulate_from=('name',), unique=True)
+	body    = models.TextField(blank=True)
 	$0
-	created_at = models.DateTimeField(auto_now_add=True)
-	updated_at = models.DateTimeField(auto_now=True)
+	created = models.DateTimeField(auto_now_add=True)
+	updated = models.DateTimeField(auto_now=True)
 
 	# class Meta:
 	#    verbose_name_plural = 'people'
