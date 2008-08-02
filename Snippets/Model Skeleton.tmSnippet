@@ -15,12 +15,9 @@
 	created_at = models.DateTimeField(auto_now_add=True)
 	updated_at = models.DateTimeField(auto_now=True)
 
-	class Admin:
-		list_display = ('',)
-		search_fields = ('',)
-
 	# class Meta:
 	#    verbose_name_plural = 'people'
+	#    ordering = ['-created']
 
 	def __unicode__(self):
 		return self.name
