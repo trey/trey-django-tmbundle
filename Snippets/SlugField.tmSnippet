@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>${1:slug} = models.SlugField(${2:prepopulate_from=('$3',$4)})</string>
+	<string>${1:slug} = models.SlugField(${2:unique=True})</string>
 	<key>name</key>
 	<string>SlugField</string>
 	<key>scope</key>

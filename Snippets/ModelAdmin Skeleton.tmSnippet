@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>from django.contrib import admin
+from models import ${1:ModelName}
+
+class $1Admin(admin.ModelAdmin):
+    list_display = (${2:'name', 'url', 'public'})
+    prepopulated_fields = {'slug': ('name',)}
+
+admin.site.register($1, $1Admin)
+</string>
+	<key>name</key>
+	<string>ModelAdmin Skeleton</string>
+	<key>scope</key>
+	<string>source.python.django</string>
+	<key>tabTrigger</key>
+	<string>admin</string>
+	<key>uuid</key>
+	<string>6F9F667E-7614-41F6-89C9-45D10A48C54D</string>
+</dict>
+</plist>
