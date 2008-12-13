@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string># This allows Django to serve static files when you're developing your project.
+# You'll have to do something else in production.
+# More information: http://docs.djangoproject.com/en/dev/howto/static-files/
+# -----------------------------------------------------------------------------
+
+# Put the following line at the top of this file
+${0:from django.conf import settings}
+
+if settings.DEBUG:
+    urlpatterns += patterns('',
+        (r'^${1:static}/(?P&lt;path&gt;.*)$', 'django.views.static.serve', {'document_root': settings.MEDIA_ROOT}),
+    )
+</string>
+	<key>name</key>
+	<string>Static Media for Development</string>
+	<key>scope</key>
+	<string>source.python.django</string>
+	<key>tabTrigger</key>
+	<string>static</string>
+	<key>uuid</key>
+	<string>4412AD68-A1F0-45E9-BB39-DFAE671DE82A</string>
+</dict>
+</plist>
