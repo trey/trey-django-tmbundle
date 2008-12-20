@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>fieldsets = (
+        (None, {
+            'fields': ('${1:field1}',${2: '${3:field2}',})
+        }),
+        ('Extra', {
+            'classes': ('collapse',),
+            'fields': ('${0:field3}',)
+        }),
+    )</string>
+	<key>name</key>
+	<string>Fieldsets</string>
+	<key>scope</key>
+	<string>source.python.django</string>
+	<key>tabTrigger</key>
+	<string>fieldsets</string>
+	<key>uuid</key>
+	<string>89640B19-8FFF-4F79-BEC9-FF92722BD6D2</string>
+</dict>
+</plist>
