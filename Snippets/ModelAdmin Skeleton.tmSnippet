@@ -7,8 +7,9 @@
 from models import ${1:ModelName}
 
 class $1Admin(admin.ModelAdmin):
-    list_display = (${2:'name', 'url', 'public'})
-    prepopulated_fields = {'slug': ('name',)}
+	list_display = (${2:'name', 'url', 'public'})
+	prepopulated_fields = {'slug': ('name',)}
+	search_fields = ('',)
 
 admin.site.register($1, $1Admin)
 </string>
