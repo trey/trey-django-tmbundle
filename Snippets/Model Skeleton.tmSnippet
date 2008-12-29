@@ -19,7 +19,7 @@
 	
 	# class Meta:
 	#	 verbose_name_plural = 'people'
-	#	 ordering = ['-created']
+	#	 ordering = ('-created',)
 	
 	def __unicode__(self):
 		return self.name

@@ -4,14 +4,14 @@
 <dict>
 	<key>content</key>
 	<string>fieldsets = (
-        (None, {
-            'fields': ('${1:field1}',${2: '${3:field2}',})
-        }),
-        ('Extra', {
-            'classes': ('collapse',),
-            'fields': ('${0:field3}',)
-        }),
-    )</string>
+	(None, {
+		'fields': ('${1:field1}',${2: '${3:field2}',})
+	}),
+	('Extra', {
+		'classes': ('collapse',),
+		'fields': ('${0:field3}',)
+	}),
+)</string>
 	<key>name</key>
 	<string>Fieldsets</string>
 	<key>scope</key>
