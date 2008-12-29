@@ -7,23 +7,31 @@
 	"""
 	${2:($1 description)}
 	"""
-
+	
 	name        = models.CharField(max_length=255)
 	slug        = models.SlugField(unique=True)
 	description = models.TextField(blank=True)
-	$0${3:
+	${3:
 	tags        = TagField()}
 	public      = models.BooleanField(default=False)
 	created     = models.DateTimeField(auto_now_add=True)
 	updated     = models.DateTimeField(auto_now=True)
-
+	
 	# class Meta:
-	#    verbose_name_plural = 'people'
-	#    ordering = ['-created']
-
+	#	 verbose_name_plural = 'people'
+	#	 ordering = ['-created']
+	
 	def __unicode__(self):
 		return self.name
-</string>
+	
+	${4:# If using the get_absolute_url method, put the following line at the top of this file:
+	${6:from django.db.models import permalink}
+	
+	@models.permalink
+	def get_absolute_url(self):
+		return ('${5:${1/(\w*).*/\L$0/}_detail_view_name}', [str(self.id)])
+	}
+	</string>
 	<key>name</key>
 	<string>Model Skeleton</string>
 	<key>scope</key>
