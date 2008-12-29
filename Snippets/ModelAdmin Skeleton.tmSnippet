@@ -3,10 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>from django.contrib import admin
-from models import ${1:ModelName}
-
-class $1Admin(admin.ModelAdmin):
+	<string>class ${1:ModelName}Admin(admin.ModelAdmin):
 	list_display = (${2:'name', 'url', 'public'})
 	prepopulated_fields = {'slug': ('name',)}
 	search_fields = ('',)
