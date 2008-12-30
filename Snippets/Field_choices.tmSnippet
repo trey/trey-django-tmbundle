@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:FRUIT}_CHOICES = (
+	('${2:A}', '${3:Apple}'),
+	('${4:B}', '${5:Banana}'),
+)
+${1/.*/\L$0/} = models.CharField(max_length=1, choices=$1_CHOICES)
+</string>
+	<key>name</key>
+	<string>Field.choices</string>
+	<key>scope</key>
+	<string>source.python.django</string>
+	<key>tabTrigger</key>
+	<string>choices</string>
+	<key>uuid</key>
+	<string>0A89A05C-1A02-48AD-9B2A-38B6D36DB089</string>
+</dict>
+</plist>

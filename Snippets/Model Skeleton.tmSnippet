@@ -29,7 +29,7 @@
 	
 	@models.permalink
 	def get_absolute_url(self):
-		return ('${5:${1/(\w*).*/\L$0/}_detail_view_name}', [str(self.id)])
+		return ('${5:${1/.*/\L$0/}_detail_view_name}', [str(self.id)])
 	}
 	</string>
 	<key>name</key>
