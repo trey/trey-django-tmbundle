@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>class ${1:ModelName}Inline(admin.StackedInline):
+    model = $1
+    # fieldsets = (
+    #     (None, {
+    #         'fields': ('...',)
+    #     }),
+    extra = 1
+
+admin.site.register(${2:RelatedModel}, $2Admin,
+    inlines = [$1Inline],
+)
+</string>
+	<key>name</key>
+	<string>ModelInline Skeleton</string>
+	<key>scope</key>
+	<string>source.python.django</string>
+	<key>tabTrigger</key>
+	<string>inline</string>
+	<key>uuid</key>
+	<string>ABFFD613-1620-41CB-B2B1-D6593C86E033</string>
+</dict>
+</plist>
