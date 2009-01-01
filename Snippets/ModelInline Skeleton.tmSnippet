@@ -5,11 +5,11 @@
 	<key>content</key>
 	<string>class ${1:ModelName}Inline(admin.StackedInline):
     model = $1
+    extra = 1
     # fieldsets = (
     #     (None, {
     #         'fields': ('...',)
     #     }),
-    extra = 1
 
 admin.site.register(${2:RelatedModel}, $2Admin,
     inlines = [$1Inline],
