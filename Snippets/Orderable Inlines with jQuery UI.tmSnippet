@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>class ${1:Model}Form(forms.ModelForm):
+    """
+    Orderable inlines using drag and drop with jQuery UI
+    http://www.djangosnippets.org/snippets/1053/
+    """
+    model = $1
+    
+    class Media:
+        js = (
+            MEDIA_URL + 'js/jquery.js',
+            MEDIA_URL + 'js/ui.core.packed.js',
+            MEDIA_URL + 'js/ui.sortable.packed.js',
+            MEDIA_URL + 'js/menu-sort.js',
+        )
+    
+    # If it's not there already, put the following line at the top of this file:
+    ${3:from settings import MEDIA_URL}
+
+admin.site.register($1, $1Admin,
+    inlines = [${2:RelatedModel}Inline],
+    form = $1Form,
+)
+</string>
+	<key>name</key>
+	<string>Orderable Inlines with jQuery UI</string>
+	<key>scope</key>
+	<string>source.python.django</string>
+	<key>tabTrigger</key>
+	<string>order</string>
+	<key>uuid</key>
+	<string>F495D0DC-C3C9-44A4-9854-469294C22606</string>
+</dict>
+</plist>
