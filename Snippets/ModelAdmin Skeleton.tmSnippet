@@ -4,9 +4,10 @@
 <dict>
 	<key>content</key>
 	<string>class ${1:ModelName}Admin(admin.ModelAdmin):
-	list_display = (${2:'name', 'url', 'public'})
-	prepopulated_fields = {'slug': ('name',)}
-	search_fields = ('',)
+    list_display = (${2:'name', 'url', 'public'})
+    list_filter = ('',)
+    prepopulated_fields = {'slug': ('name',)}
+    search_fields = ('',)
 
 admin.site.register($1, $1Admin)
 </string>
