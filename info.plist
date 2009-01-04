@@ -8,6 +8,7 @@
 		<array>
 			<string>A536DB63-0671-4706-A1BC-3F69BDE25CC1</string>
 			<string>6B92FA72-F53D-4867-991B-690C21F96CAB</string>
+			<string>6BA0B5C4-5BB1-4433-8E4A-1F519617356C</string>
 			<string>31436308-E9B0-44E4-9026-F0A8AFC748EF</string>
 			<string>4412AD68-A1F0-45E9-BB39-DFAE671DE82A</string>
 		</array>
@@ -34,6 +35,15 @@
 				</array>
 				<key>name</key>
 				<string>Model</string>
+			</dict>
+			<key>6BA0B5C4-5BB1-4433-8E4A-1F519617356C</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>B7B3DB27-B3FB-44AF-8491-7CF5455BDC9C</string>
+				</array>
+				<key>name</key>
+				<string>View</string>
 			</dict>
 			<key>A536DB63-0671-4706-A1BC-3F69BDE25CC1</key>
 			<dict>
@@ -62,6 +72,9 @@
 		<string>AB3C8E3F-C90E-4EC9-A74D-E7D9519A550E</string>
 		<string>086A4DA4-779A-40E9-9C51-295D4F32C146</string>
 		<string>56CE292A-7033-4B41-BD83-896E97815BD7</string>
+		<string>B7B3DB27-B3FB-44AF-8491-7CF5455BDC9C</string>
+		<string>0364709E-EE20-4CAC-80EA-2EFD2D721C21</string>
+		<string>AC3D5826-CB7D-474E-9BA2-E6F28A9AF16B</string>
 		<string>4412AD68-A1F0-45E9-BB39-DFAE671DE82A</string>
 		<string>4BB23F60-70F3-4D87-8964-892EA573AAF7</string>
 		<string>393A1414-0440-4866-AD3C-00BB959AC514</string>

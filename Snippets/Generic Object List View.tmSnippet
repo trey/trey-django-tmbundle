@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>def ${1:model}_list(request):
+    """
+    A list of $1s.
+    """
+
+    return list_detail.object_list(
+        request,
+        queryset = ${1/(\w)/\U$0/}.objects.all(),
+        template_object_name = '$1',
+    )
+</string>
+	<key>name</key>
+	<string>Generic Object List View</string>
+	<key>scope</key>
+	<string>source.python.django</string>
+	<key>tabTrigger</key>
+	<string>gl</string>
+	<key>uuid</key>
+	<string>B7B3DB27-B3FB-44AF-8491-7CF5455BDC9C</string>
+</dict>
+</plist>
