@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>os.path.join(os.path.dirname(__file__), "${1:public/static/}")</string>
+	<key>name</key>
+	<string>Fancy Path</string>
+	<key>scope</key>
+	<string>source.python.django</string>
+	<key>tabTrigger</key>
+	<string>path</string>
+	<key>uuid</key>
+	<string>1021866F-32A7-4AD4-AA0B-AB1946B30B65</string>
+</dict>
+</plist>
