@@ -5,14 +5,14 @@
 	<key>content</key>
 	<string>def ${1:model}_detail(request, slug):
     """
-    A single $1.
+    ${2:A single $1.}
     """
 
     return list_detail.object_detail(
         request,
-        queryset = ${1/(\w)/\U$0/}.objects.all(),
+        queryset = ${3:${1/(\w)/\U$0/}}.objects.all(),
         slug = slug,
-        template_object_name = '$1',
+        template_object_name = '${4:$1}',
     )
 </string>
 	<key>name</key>
