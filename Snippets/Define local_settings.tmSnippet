@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>try:
+    from local_settings import *
+except ImportError:
+    pass
+</string>
+	<key>name</key>
+	<string>Define local_settings</string>
+	<key>scope</key>
+	<string>source.python.django</string>
+	<key>tabTrigger</key>
+	<string>ls</string>
+	<key>uuid</key>
+	<string>DC86033A-7D5C-4B37-B4E8-9ADB8B8CF2BF</string>
+</dict>
+</plist>
