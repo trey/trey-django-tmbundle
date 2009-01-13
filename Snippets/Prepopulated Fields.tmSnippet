@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>prepopulated_fields = {'${1:slug}': ('${2:name}',)}</string>
+	<key>name</key>
+	<string>Prepopulated Fields</string>
+	<key>scope</key>
+	<string>source.python.django</string>
+	<key>tabTrigger</key>
+	<string>pf</string>
+	<key>uuid</key>
+	<string>6B3673E8-7B43-4636-9D3F-40F792FA5378</string>
+</dict>
+</plist>

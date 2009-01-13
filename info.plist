@@ -11,6 +11,8 @@
 			<string>6BA0B5C4-5BB1-4433-8E4A-1F519617356C</string>
 			<string>31436308-E9B0-44E4-9026-F0A8AFC748EF</string>
 			<string>4412AD68-A1F0-45E9-BB39-DFAE671DE82A</string>
+			<string>1021866F-32A7-4AD4-AA0B-AB1946B30B65</string>
+			<string>DC86033A-7D5C-4B37-B4E8-9ADB8B8CF2BF</string>
 		</array>
 		<key>submenus</key>
 		<dict>
@@ -55,6 +57,7 @@
 					<string>ABFFD613-1620-41CB-B2B1-D6593C86E033</string>
 					<string>89640B19-8FFF-4F79-BEC9-FF92722BD6D2</string>
 					<string>F495D0DC-C3C9-44A4-9854-469294C22606</string>
+					<string>6B3673E8-7B43-4636-9D3F-40F792FA5378</string>
 				</array>
 				<key>name</key>
 				<string>Admin</string>
@@ -70,6 +73,7 @@
 		<string>ABFFD613-1620-41CB-B2B1-D6593C86E033</string>
 		<string>89640B19-8FFF-4F79-BEC9-FF92722BD6D2</string>
 		<string>F495D0DC-C3C9-44A4-9854-469294C22606</string>
+		<string>6B3673E8-7B43-4636-9D3F-40F792FA5378</string>
 		<string>AB3C8E3F-C90E-4EC9-A74D-E7D9519A550E</string>
 		<string>086A4DA4-779A-40E9-9C51-295D4F32C146</string>
 		<string>56CE292A-7033-4B41-BD83-896E97815BD7</string>
@@ -79,6 +83,8 @@
 		<string>4412AD68-A1F0-45E9-BB39-DFAE671DE82A</string>
 		<string>4BB23F60-70F3-4D87-8964-892EA573AAF7</string>
 		<string>393A1414-0440-4866-AD3C-00BB959AC514</string>
+		<string>DC86033A-7D5C-4B37-B4E8-9ADB8B8CF2BF</string>
+		<string>1021866F-32A7-4AD4-AA0B-AB1946B30B65</string>
 	</array>
 	<key>uuid</key>
 	<string>0AF68BCC-CA3F-47F3-85D8-0BD5DA28F230</string>
