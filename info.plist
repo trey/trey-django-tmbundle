@@ -8,6 +8,7 @@
 		<array>
 			<string>A536DB63-0671-4706-A1BC-3F69BDE25CC1</string>
 			<string>6B92FA72-F53D-4867-991B-690C21F96CAB</string>
+			<string>48ABFDFD-645C-4E08-AD11-7F11C65D1BF8</string>
 			<string>6BA0B5C4-5BB1-4433-8E4A-1F519617356C</string>
 			<string>31436308-E9B0-44E4-9026-F0A8AFC748EF</string>
 			<string>4412AD68-A1F0-45E9-BB39-DFAE671DE82A</string>
@@ -25,6 +26,15 @@
 				</array>
 				<key>name</key>
 				<string>Python</string>
+			</dict>
+			<key>48ABFDFD-645C-4E08-AD11-7F11C65D1BF8</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>F2ADA283-1E26-4D65-9938-558200C0EF76</string>
+				</array>
+				<key>name</key>
+				<string>Template</string>
 			</dict>
 			<key>6B92FA72-F53D-4867-991B-690C21F96CAB</key>
 			<dict>
@@ -52,7 +62,6 @@
 			<dict>
 				<key>items</key>
 				<array>
-					<string>311C17C5-A556-48D4-B91F-DD28BB0CF4E7</string>
 					<string>6F9F667E-7614-41F6-89C9-45D10A48C54D</string>
 					<string>ABFFD613-1620-41CB-B2B1-D6593C86E033</string>
 					<string>89640B19-8FFF-4F79-BEC9-FF92722BD6D2</string>
@@ -68,7 +77,6 @@
 	<string>Trey - Django</string>
 	<key>ordering</key>
 	<array>
-		<string>311C17C5-A556-48D4-B91F-DD28BB0CF4E7</string>
 		<string>6F9F667E-7614-41F6-89C9-45D10A48C54D</string>
 		<string>ABFFD613-1620-41CB-B2B1-D6593C86E033</string>
 		<string>89640B19-8FFF-4F79-BEC9-FF92722BD6D2</string>
