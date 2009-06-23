@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>hostname = os.uname()[1].lower()
+if hostname in ['localhost']:
+    # Development settings
+    DATABASE_ENGINE = 'sqlite3'
+    DATABASE_NAME = 'dev.db'
+${1:elif hostname in ['${2:staging_server}'${3:, '${4:something_else}'}]:
+    ${5:# Staging settings}
+}else:
+    ${6:# Production settings}
+    ${7:DATABASE_ENGINE = 'mysql'
+    DATABASE_NAME = ''
+    DATABASE_USER = ''
+    DATABASE_PASSWORD = ''
+    DATABASE_HOST = 'localhost'
+    DATABASE_PORT = ''
+}    $0</string>
+	<key>name</key>
+	<string>Hostname</string>
+	<key>scope</key>
+	<string>source.python.django</string>
+	<key>tabTrigger</key>
+	<string>hostname</string>
+	<key>uuid</key>
+	<string>324F40AD-F9F6-4B58-A09C-4D72E1057F32</string>
+</dict>
+</plist>
