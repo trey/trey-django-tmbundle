@@ -3,15 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>def full_path(*parts):
-    """Make an absolute path based on relation to this file"""
+	<string>${1:import os
+
+}def full_path(*parts):
+    """Make an absolute path based on relation to this file."""
     return reduce(os.path.join, parts, os.path.dirname(os.path.abspath(__file__)))</string>
 	<key>name</key>
 	<string>Full Path</string>
 	<key>scope</key>
 	<string>source.python</string>
 	<key>tabTrigger</key>
-	<string>fullpath</string>
+	<string>fp</string>
 	<key>uuid</key>
 	<string>10E039EA-9871-40AF-8366-ACE423ABB618</string>
 </dict>

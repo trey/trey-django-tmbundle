@@ -11,9 +11,7 @@
 			<string>48ABFDFD-645C-4E08-AD11-7F11C65D1BF8</string>
 			<string>6BA0B5C4-5BB1-4433-8E4A-1F519617356C</string>
 			<string>31436308-E9B0-44E4-9026-F0A8AFC748EF</string>
-			<string>4412AD68-A1F0-45E9-BB39-DFAE671DE82A</string>
-			<string>1021866F-32A7-4AD4-AA0B-AB1946B30B65</string>
-			<string>DC86033A-7D5C-4B37-B4E8-9ADB8B8CF2BF</string>
+			<string>B9AD60A5-51F7-4D65-98F8-33F9D19DF81F</string>
 		</array>
 		<key>submenus</key>
 		<dict>
@@ -70,6 +68,19 @@
 				</array>
 				<key>name</key>
 				<string>Admin</string>
+			</dict>
+			<key>B9AD60A5-51F7-4D65-98F8-33F9D19DF81F</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>4412AD68-A1F0-45E9-BB39-DFAE671DE82A</string>
+					<string>1021866F-32A7-4AD4-AA0B-AB1946B30B65</string>
+					<string>DC86033A-7D5C-4B37-B4E8-9ADB8B8CF2BF</string>
+					<string>10E039EA-9871-40AF-8366-ACE423ABB618</string>
+					<string>324F40AD-F9F6-4B58-A09C-4D72E1057F32</string>
+				</array>
+				<key>name</key>
+				<string>Settings</string>
 			</dict>
 		</dict>
 	</dict>
