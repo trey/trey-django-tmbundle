@@ -8,30 +8,26 @@
 	${2:($1 description)}
 	"""
 	
-	name        = models.CharField(max_length=255)
-	slug        = models.SlugField(unique=True)
+	${3:name        = models.CharField(max_length=255)
 	description = models.TextField(blank=True)
-	${3:
-	tags        = TagField()}
-	public      = models.BooleanField(default=False)
 	created     = models.DateTimeField(auto_now_add=True)
 	updated     = models.DateTimeField(auto_now=True)
+ 	}${4:
+	class Meta:
+		verbose_name_plural = '${5:People}'
+		ordering = ('-created',)
 	
-	# class Meta:
-	#	 verbose_name_plural = 'people'
-	#	 ordering = ('-created',)
+	}def __unicode__(self):
+		return self.${6:name}
 	
-	def __unicode__(self):
-		return self.name
-	
-	${4:# If using the get_absolute_url method, put the following line at the top of this file:
-	${6:from django.db.models import permalink}
+	${7:# If using the get_absolute_url method, put the following line at the top of this file:
+	${9:from django.db.models import permalink}
 	
 	@models.permalink
 	def get_absolute_url(self):
-		return ('${5:${1/.*/\L$0/}_detail_view_name}', [str(self.id)])
+		return ('${8:${1/.*/\L$0/}_detail_view_name}', [str(self.id)])
 	}
-	</string>
+</string>
 	<key>name</key>
 	<string>Model Skeleton</string>
 	<key>scope</key>
@@ -39,6 +35,6 @@
 	<key>tabTrigger</key>
 	<string>model</string>
 	<key>uuid</key>
-	<string>311C17C5-A556-48D4-B91F-DD28BB0CF4E7</string>
+	<string>7A481BF5-13EC-4B33-8C8F-79F24F07FE19</string>
 </dict>
 </plist>

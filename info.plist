@@ -38,6 +38,7 @@
 			<dict>
 				<key>items</key>
 				<array>
+					<string>7A481BF5-13EC-4B33-8C8F-79F24F07FE19</string>
 					<string>AB3C8E3F-C90E-4EC9-A74D-E7D9519A550E</string>
 					<string>086A4DA4-779A-40E9-9C51-295D4F32C146</string>
 					<string>56CE292A-7033-4B41-BD83-896E97815BD7</string>
@@ -88,6 +89,7 @@
 	<string>Trey - Django</string>
 	<key>ordering</key>
 	<array>
+		<string>7A481BF5-13EC-4B33-8C8F-79F24F07FE19</string>
 		<string>6F9F667E-7614-41F6-89C9-45D10A48C54D</string>
 		<string>ABFFD613-1620-41CB-B2B1-D6593C86E033</string>
 		<string>89640B19-8FFF-4F79-BEC9-FF92722BD6D2</string>
