@@ -23,7 +23,7 @@
 	${7:# If using the get_absolute_url method, put the following line at the top of this file:
 	${9:from django.db.models import permalink}
 	
-	@models.permalink
+	@permalink
 	def get_absolute_url(self):
 		return ('${8:${1/.*/\L$0/}_detail_view_name}', [str(self.id)])
 	}
