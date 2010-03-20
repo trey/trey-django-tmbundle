@@ -6,7 +6,10 @@
 	<string>${1:import os
 
 }def full_path(*parts):
-    """Make an absolute path based on relation to this file."""
+    """
+    Make an absolute path based on relation to this file.
+    Example: full_path('static')
+    """
     return reduce(os.path.join, parts, os.path.dirname(os.path.abspath(__file__)))</string>
 	<key>name</key>
 	<string>Full Path</string>
