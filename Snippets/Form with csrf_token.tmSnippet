@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;form action="." method="post"&gt;{% csrf_token %}
+	${1:{{ form \}\}}
+	${2:&lt;button&gt;Submit&lt;/button&gt;}
+&lt;/form&gt;</string>
+	<key>name</key>
+	<string>Form with csrf_token</string>
+	<key>scope</key>
+	<string>text.html.django</string>
+	<key>tabTrigger</key>
+	<string>form</string>
+	<key>uuid</key>
+	<string>C555C670-2D29-429E-A941-574A6337D598</string>
+</dict>
+</plist>
